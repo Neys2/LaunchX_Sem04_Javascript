@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex - LaunchX</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<body>
+    <img src="./img/title.png" alt="Pokemon Pokedex" id="title"><br>
+    <div class="contenedor">
+        <div class="contImg">
+            <img src="./img/pokemon_who.jpg" alt="Marco pokemon" id="pokeMarc" >
+            <img src="./img/blanco.png" alt="white screen" id="pokeImg">
+        </div>
+        <div class="inText">
+            <input type="text" placeholder="pikachu" id="pokeName" name="pokeName"><br>
+            <button id="btnA" onclick="fetchPokemon()">Buscar</button><br>
+            <button id="btnB" onclick="randomPokemon()">Generar al azar</button>
+            <button id="btnC" onclick="clean()">Limpiar datos</button><br>
+        </div>
+        <div class="datos">
+            <p id="namePok" style="text-align: center; color: white;" innertText ="Nombre:">Nombre:</p>
+            <p id="tipo" style="color: white;" innertText ="Tipo: ">Tipo:</p>
+            <div class="izqA" >
+                <p id="altura" innertText ="Altura: ">Altura: </p>
+            </div>
+            <div class="derA">
+                <p id="peso" innertText ="Peso: ">Peso: </p>
+            </div>
+            <div class="estadisticas">
+                <div class="izq">
+                    <p id="hp" innertText ="Vida: ">Vida: </p>
+                    <p id="attack" innertText ="Ataque: ">Ataque:</p>
+                    <p id="defense" innertText ="Defensa: ">Defensa:</p>
+                </div>
+                <div class="der">
+                    <p id="spA" innertText ="Ataque especial: ">Ataque especial: </p>
+                    <p id="spD" innertText ="Defensa especial:">Defensa especial: </p>
+                    <p id="speed" innertText ="Velocidad: ">Velocidad: </p>
+                </div>
+            </div>
+            <div class="moves">
+                <p id="tMoves" innertText ="Total de movimientos: " >Total de movimientos:</p><br>
+                <p id="moves">Movimientos:</p>
+                <textarea name="movesDesc" id="movesDesc" cols="40" rows="28" readonly="readonly" value="\n ">
+                </textarea>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+<footer>
+    <script src="accions.js"></script>
+</footer>
+</html>

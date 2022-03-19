@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+}
+#title{
+    margin-left: 40%;
+    height: 130px;
+}
+
+.contImg{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 10%;
+    background-color:aqua;
+}
+#pokeMarc{
+    position: absolute;
+    border-radius: 15%;
+    width: 700px;
+    height: 850px;
+}
+#pokeImg{
+    position: absolute;
+    left: 60px;
+    top: 230px;
+    width: 250px ;
+    height: 300px;
+    z-index: 1;
+}
+.inText{
+    position: absolute;
+    left: 480px;
+    top: 928px;
+}
+#btnA{
+    margin-top: 5px;
+    margin-left: 35%;
+}
+#btnB{
+    margin-top: 5px;
+    float: left;
+}
+#btnC{
+    margin-top: 5px;
+    float: right;
+}
+.datos{
+    position: absolute;
+    z-index: -1;
+    left: 54.5%;
+    top: 200px;
+    width: 550px;
+    height: 730px;
+    padding: 25px;
+    border-radius: 15%;
+    color: white;
+    background-color: rgb(146, 41, 41);
+}
+.estadisticas{
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    color: white;
+    opacity: 70%;
+}
+.izq{
+    float: left;
+    color: white;
+}
+.der{
+    float: right;
+    color: white;
+}
+.moves{
+    margin-top: 20px;
+}
+.moves button{
+    margin-left:  40%;
+}
+.moves textarea{
+    resize: none;
+    background-color: black;
+    opacity: 85%;
+    color: white;
+    margin-left: 22%;
+    margin-top: 10px;
+}
+#moves{
+    margin-left: 40%;
+}
+/*
+@media(max-width: 1440px){
+    #title{
+        margin-left: 45%;
+    }
+    .datos{
+        width: 450px;
+        left: 56.5%;
+        top: 250px;
+        border-radius: 5%;
+    }
+    .contImg{
+        margin-left: 8.5%;
+        width: 330px;
+    }
+
+}*/
+@media(max-width: 1024px){
+    #title{
+        margin-left: 35%;
+    }
+    #pokeMarc{
+        width: 600px;
+        height: 850px;
+    }
+    .contImg{
+        margin: 0px;
+        margin-left: 0%;
+        width: 330px;
+    }
+    .inText{
+        width: 195px;
+        left: 355px;
+        top: 890px;
+    }
+    .datos{
+        width: 450px;
+        left: 57.5%;
+        right: 5%;
+        top: 200px;
+        border-radius: 5%;
+    }
+    #moves{
+        margin-left: 30%;
+    }
+    .moves textarea{
+        resize: none;
+        width: 250px;
+        background-color: black;
+        opacity: 85%;
+        color: white;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+
+}
+
+@media(max-width: 768px){
+    #title{
+        margin-left: 20%;
+    }
+    #pokeMarc{
+        width: 182%;
+        height: 850px;
+    }
+    .contImg{
+        margin: 0px;
+        width: 330px;
+    }
+    .inText{
+        width: 195px;
+        left: 360px;
+        top: 890px;
+    }
+    .datos{
+        left: 0%;
+        width:78%;
+        top: 980px;
+        padding: 25px;
+        border-radius: 15%;
+    }
+    #moves{
+        margin-left: 45%;
+    }
+    .moves textarea{
+        resize: none;
+        height: 400px;
+        background-color: black;
+        opacity: 85%;
+        color: white;
+        margin-left: 30%;
+        margin-top: 10px;
+    }
+
+}
+
+@media(max-width: 425px){
+    #title{
+        margin-left: 25%;
+    }
+    .contImg{
+        margin: 0px;
+    }
+    #pokeMarc{
+        width: 520px;
+    }
+    .inText{
+        width: 190px;
+        left: 300px;
+        top: 890px;
+    }
+    .datos{
+        width: 120.5%;
+        left: 0%;
+        right: 0%;
+        top: 980px;
+        padding: 25px;
+        border-radius: 15%;
+    }
+    #moves{
+        margin-left: 43%;
+    }
+    .moves textarea{
+        resize: none;
+        background-color: black;
+        opacity: 85%;
+        color: white;
+        margin-left: 23%;
+        margin-top: 10px;
+    }
+    #pokeImg{
+        left: 18px;
+    }
+
+}
+
+@media(max-width: 375px){
+    #title{
+        margin-left: 50%;
+    }
+    #pokeMarc{
+        width: 700px;
+        height: 850px;
+    }
+    .contImg{
+        margin: 0px;
+    }
+    .inText{
+        width: 195px;
+        left: 440px;
+        top: 893px;
+    }
+    .datos{
+        width: 185%;
+        left: 0%;
+        right: 0%;
+        top: 980px;
+        padding: 25px;
+        border-radius: 15%;
+    }
+    #pokeImg{
+        left: 50px;
+    }
+    #moves{
+        margin-left: 40%;
+    }
+    .moves textarea{
+        margin-left: 30%;
+    }
+
+}
+
+@media (max-width: 320px) {
+    #title{
+        margin-left: 55%;
+    }
+    .contImg{
+        margin: 0%;
+    }
+    .inText{
+        width: 195px;
+        left: 430px;
+        top: 895px;
+    }
+    .datos{
+        width: 205%;
+        left: 5%;
+        right: 5%;
+        top: 980px;
+    }
+}
