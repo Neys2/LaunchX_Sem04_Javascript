@@ -98,24 +98,48 @@ body{
 }
 #moves{
     margin-left: 40%;
+}/*
+@media(max-width: 2560px){
+    .contImg{
+        margin-left: 20%;
+
+    }
+    .datos{
+        left:47.3%;
+    }
+    .inText{
+        left: 965px;
+    }
+    #pokeImg{
+        left: 50px;
+        top: 225px;
+    }
 }
-/*
+
 @media(max-width: 1440px){
     #title{
-        margin-left: 45%;
+        margin-left: 35%;
     }
     .datos{
         width: 450px;
-        left: 56.5%;
-        top: 250px;
+        left: 50.5%;
+        top: 245px;
         border-radius: 5%;
     }
     .contImg{
-        margin-left: 8.5%;
+        margin: left 0%;;
         width: 330px;
     }
+    .moves textarea{
+        margin-left: 12%;
+        margin-top: 10px;
+    }
+    #moves{
+        margin-left: 40%;
+    }
 
-}*/
+}
+*/
 @media(max-width: 1024px){
     #title{
         margin-left: 35%;
@@ -145,11 +169,7 @@ body{
         margin-left: 30%;
     }
     .moves textarea{
-        resize: none;
         width: 250px;
-        background-color: black;
-        opacity: 85%;
-        color: white;
         margin-left: 15%;
         margin-top: 10px;
     }
@@ -186,9 +206,6 @@ body{
     .moves textarea{
         resize: none;
         height: 400px;
-        background-color: black;
-        opacity: 85%;
-        color: white;
         margin-left: 30%;
         margin-top: 10px;
     }
@@ -223,9 +240,6 @@ body{
     }
     .moves textarea{
         resize: none;
-        background-color: black;
-        opacity: 85%;
-        color: white;
         margin-left: 23%;
         margin-top: 10px;
     }
